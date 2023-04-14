@@ -12,5 +12,5 @@ interface ApiService {
     fun getVideo(@Path("title") title: String, @Path("page") page: Int, @Path("limit") limit: Int): Call<Video>
 
     @GET("/videoChapter/search/{vid}")
-    fun getVideoChapter(@Path("vid") vid: Int): Call<VideoChapter>
+    fun getVideoChapter(@Path("vid") vid: String): Call<VideoChapter>
 }

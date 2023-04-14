@@ -18,5 +18,4 @@ data class VideoData(
     val updateTime: String,
     val videoId: String,
     val videoType: String,
-    var isExpend: Boolean,
 )
